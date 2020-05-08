@@ -33,7 +33,7 @@ jobs:
     # build your code if your project uses a compiled language (C/C++, C#, or
     # Java).
     - run: |
-       mvn compile
+       ./mvnw package
 
 
     - name: Perform CodeQL Analysis
