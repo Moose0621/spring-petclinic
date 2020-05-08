@@ -22,10 +22,9 @@ jobs:
     - name: Initialize CodeQL
       uses: Anthophila/codeql-action/codeql/init@master
       # Override language selection by uncommenting this and choosing your languages
-       with:
-         languages: java
       with:
-        languages: javascript
+        languages: java
+      
         
 
     # Command-line programs to run using the OS shell.
